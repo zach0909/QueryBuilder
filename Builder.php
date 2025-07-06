@@ -94,6 +94,7 @@ class Builder
                 }
                 $dataToReturn[] = $newRecord;
             }
+            $this->selectFields = [];
             return $dataToReturn;
         }
         return $allRecords;
